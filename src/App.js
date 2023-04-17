@@ -11,7 +11,7 @@ function App() {
     })();
   });
 
-  return <div>{data}</div>;
+  return <div>Hello I am {data}</div>;
 }
 
 export default App;
