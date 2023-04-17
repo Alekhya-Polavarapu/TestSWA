@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     (async function () {
-      const { text } = await( await fetch(`/api/hello`)).json();
+      const { text } = await( await fetch(`/api/hello?name=alekhya`)).json();
       setData(text);
     })();
   });
