@@ -11,7 +11,11 @@ function App() {
     })();
   });
 
-  return <div>Hello I am {data}</div>;
+  return <div>Hello I am {data}
+  <a href="/.auth/login/aad">Login</a>
+      <a href="/.auth/logout">Logout</a>
+      <a href="/.auth/login/github">Login with github</a>
+  </div>;
 }
 
 export default App;
