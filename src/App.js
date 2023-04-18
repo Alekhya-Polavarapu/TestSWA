@@ -15,6 +15,9 @@ function App() {
   <a href="/.auth/login/aad">Login</a>
       <a href="/.auth/logout">Logout</a>
       <a href="/.auth/login/github">Login with github</a>
+    <br />
+    <br />
+    <a href="/authenticated/">Authenticated Role page</a>
   </div>;
 }
 
